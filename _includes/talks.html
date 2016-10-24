@@ -1,0 +1,75 @@
+
+<!-- Talks -->
+<section id="talks">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="page-header">Education and Work Experiences</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-1 col-sm-2 text-right">
+        <p>07/2016 - 09/2016</p>
+      </div>
+      <div class="col-md-8 col-sm-10">
+        <p>Teaching Assistant of Software Enjineering, <a href="https://ustc.edu.cn" target="_blank">University of Science and Technology of China.</a></p>
+        <p>Teacher: Hongping Deng</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-2 col-md-offset-1 col-sm-2 text-right">
+        <p>07/2015 - 06/2016</p>
+      </div>
+      <div class="col-md-8 col-sm-10">
+        <p>Intern in <a href="https://www.microsoft.com/en-us/research/group/internet-graphics/" target="_blank">Internet Graphics Group</a>, <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" target="_blank">Microsoft Research Asia.</a></p>
+        <p>Mentor: <a href="http://research.microsoft.com/en-us/um/people/yangliu/" target="_blank">Yang Liu</a> and <a href="http://research.microsoft.com/en-us/um/people/xtong/xtong.html" target="_blank">Xin Tong</a></p>
+      </div>
+     </div>
+      
+      <div class="row">
+      <div class="col-md-2 col-md-offset-1 col-sm-2 text-right">
+        <p>09-2012 - 06/2016</p>
+      </div>
+      <div class="col-md-8 col-sm-10">
+        <p>Bachelor in Information and Computing Science, <a href="https://ustc.edu.cn" target="_blank">University of Science and Technology of China.</a></p>
+        <p>GPA: 3.66/4.30, Rank: 28/125, Average Scores: 86.90/100</p>
+      </div>
+      </div>
+      
+     <div class="row">
+<!--      <div class="col-md-2 col-md-offset-1 col-sm-2 text-right">-->
+	  <div class="col-md-2 col-md-offset-1 col-sm-2 text-right">
+        <p>09/2014 - 02/2016</p>
+      </div>
+      <div class="col-md-8 col-sm-10">
+        <p>Bachelor(Dual) in Computer Science and Technology, <a href="https://ustc.edu.cn" target="_blank">University of Science and Technology of China.</a></p>
+		</div>
+    </div>
+    
+    
+<!--here comes awards-->
+      <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="page-header">Awards and Scholorships</h2>
+      </div>
+    </div>
+	{% assign curDate = site.time | date: '%s' %}
+    {% assign talks = site.data.talks | sort:"date" %}
+    {% for t in talks reversed %}
+    <div class="row">
+      <div class="col-md-2 col-md-offset-1 col-sm-2 text-right">
+        <p>{{ t.date | date : "%B %Y" }}</p>
+      </div>
+	  {% assign talkDate = t.date | date: '%s' %}
+      <div class="col-md-8 col-sm-10">
+        <p>{{ t.content}}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  </div>
+  
+
+
+</section>

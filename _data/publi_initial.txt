@@ -1,0 +1,450 @@
+{ "key"       : "kskd2010",
+    "featured"  : "false",
+    "bibtex"    : "bib/2010-kskd.bib",
+    "title"     : "Anisotropic Kuwahara Filtering with Polynomial Weighting Functions",
+    "date"      : "2010-06-01",
+    "authors"   : [ "Jan Eric Kyprianidis", "Amir Semmo", "Henry Kang", "Jürgen Döllner" ],
+    "published" : "NPAR Poster Session / Proceedings EG UK Theory and Practice of Computer Graphics (TP.CG)",
+    "caption"   : "In this work we present new weighting functions for the anisotropic Kuwahara filter. The anisotropic Kuwahara filter is an edge-preserving filter that is especially useful for creating stylized abstractions from images or videos. It is based on a generalization of the Kuwahara filter that is adapted to the local shape of features. For the smoothing process, the anisotropic Kuwahara filter uses weighting functions that use convolution in their definition. For an efficient implementation, these weighting functions are therefore usually sampled into a texture map. By contrast, our new weighting functions do not require convolution and can be efficiently computed directly during the filtering in real-time. We show that our approach creates output of similar quality as the original anisotropic Kuwahara filter and present an evaluation scheme to compute the new weighting functions efficiently by using rotational symmetries.",
+    "thumbnail" : "/img/2010-kskd.jpg",
+    "downloads" : [
+    { "href"  : "http://www.researchgate.net/profile/Amir_Semmo/publication/220862124_Anisotropic_Kuwahara_Filtering_with_Polynomial_Weighting_Functions/links/53feda9e0cf23bb019be63c7.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+      "desc"  : "Paper (PDF)"
+    } ]
+    },
+	
+  {	"key"       : "skd2010",
+    "featured"  : "false",
+    "bibtex"    : "bib/2010-skd.bib",
+    "title"     : "Automated Image-Based Abstraction of Aerial Images",
+    "date"      : "2010-03-01",
+    "authors"   : [ "Amir Semmo", "Jan Eric Kyprianidis", "Jürgen Döllner" ],
+    "published" : "Proceedings of 13th AGILE International Conference on Geographic Information Science",
+    "caption"   : "Aerial images represent a fundamental type of geodata with a broad range of applications in GIS and geovisualization. The perception and cognitive processing of aerial images by the human, however, still is faced with the specific limitations of photorealistic depictions such as low contrast areas, unsharp object borders as well as visual noise. In this paper we present a novel technique to automatically abstract aerial images that enhances visual clarity and generalizes the contents of aerial images to improve their perception and recognition. The technique applies non-photorealistic image processing by smoothing local image regions with low contrast and emphasizing edges in image regions with high contrast. To handle the abstraction of large images, we introduce an image tiling procedure that is optimized for post-processing images on GPUs and avoids visible artifacts across junctions. This is technically achieved by filtering additional connection tiles that overlap the main tiles of the input image. The technique also allows the generation of different levels of abstraction for aerial images by computing a mipmap pyramid, where each of the mipmap levels is filtered with adapted abstraction parameters. These mipmaps can then be used to perform level-of-detail rendering of abstracted aerial images. Finally, the paper contributes a study to aerial image abstraction by analyzing the results of the abstraction process on distinctive visible elements in common aerial image types. In particular, we have identified a high abstraction straction potential in landscape images and a higher benefit from edge enhancement in urban environments.",
+    "thumbnail" : "/img/2010-skd.jpg",
+    "downloads" : [
+    { "href"    : "http://dx.doi.org/10.1007/978-3-642-12326-9_19",
+      "desc"    : "DOI"
+    },
+	{ "href"  : "http://www.researchgate.net/profile/Amir_Semmo/publication/251153785_Automated_Image-Based_Abstraction_of_Aerial_Images/links/54d0c69e0cf20323c21978ff.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+      "desc"  : "Paper (PDF)"
+    } ]
+    },
+
+    { "key"       : "tsd2011",
+      "featured"  : "false",
+      "bibtex"    : "bib/2011-tsd.bib",
+      "title"     : "Colonia3D",
+      "date"      : "2011-05-01",
+      "authors"   : [ "Matthias Trapp", "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "Proceedings 9. Konferenz Kultur und Informatik - Multimediale Systeme",
+      "caption"   : "Dieser Beitrag stellt die Ergebnisse des interdisziplinären Projektes Colonia3D - Visualisierung des Römischen Kölns vor. Die digitale 3D Rekonstruktion des antiken Köln ist das Ergebnis eines gemeinsamen Forschungsprojekts des Archäologischen Instituts der Universität zu Köln, der Köln International School of Design (KISD) der Fachhochschule Köln, des Hasso-Plattner Instituts an der Universität Potsdam und des Römisch Germanischen Museums (RGM) Köln. Der Beitrag präsentiert die wesentlichen Konzepte dieses interaktiven, auf Museen ausgerichteten 3D-Informationssystems, beschreibt verschiedene Präsentationsmodi und deren technische Umsetzung. Er diskutiert Vorgehensweisen und Interaktionskonzepte, die den Benutzer während der Erkundung und Bewegung im virtuellen 3D-Stadtmodell unterstützen. Weiter werden die Techniken für den Austausch, die Aufbereitung und die Optimierung komplexer 3D-Datensätze beschrieben sowie Potenziale für digitale Museen und Ausstellungen skizziert. Der vorgestellte Ansatz stellt insbesondere eine IT-Lösung für einen vereinfachten, räumlich-kontextintegrierten informellen Wissenszugang zu archäologischer Fachinformation dar.",
+      "thumbnail" : "/img/2011-tsd.jpg",
+	  "downloads" : [
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/225091338_Colonia3D/links/0912f503b61ff75407000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      } ]
+    },
+
+    { "key"       : "std2011",
+      "featured"  : "false",
+      "bibtex"    : "bib/2011-std.bib",
+      "title"     : "Ansätze zur kartographischen Gestaltung von 3D-Stadtmodellen",
+      "date"      : "2011-04-01",
+      "authors"   : [ "Amir Semmo", "Matthias, Trapp", "Jürgen Döllner" ],
+      "published" : "Proceedings 31. Wissenschaftlich-Technische Jahrestagung der DGPF",
+      "caption"   : "Interaktive virtuelle 3D-Stadtmodelle haben sich zu einem bewährten Medium für die effektive und effiziente Kommunikation von Geoinformation entwickelt. Sie präsentieren eine spezialisierte Form geovirtueller Umgebungen und sind gekennzeichnet durch ein zugrunde liegendes 3D-Geländemodell, einer darin befindlichen 3D-Bebauung sowie des dazu komplementären Straßen-, Grünflächen- und Naturraumes. 3D-Stadtmodell-Systeme ermöglichen es dem Nutzer, sich im Modell interaktiv zu bewegen und sie stellen die Grundfunktionen für die Exploration, Analyse, Präsentation und das Editieren der raumbezogenen Information bereit. Besonders im Gebiet der kartenähnlichen und kartenverwandten 3D-Darstellungen stellen u.a. automatische Verfahren und Techniken zur Stilisierung und Abstraktion von Objekten eines 3D Stadtmodell ein Hauptproblem für die interaktive 3D-Bildsynthese dar. Hier spielt insbesondere die Abstraktion und Illustration potentiell wichtiger Information und somit die Reduzierung der kognitiven Belastung des Nutzers eine tragende Rolle. Diesbezüglich sind Verfahren und Techniken zur nicht-photorealistischen Bildsynthese ein bewährtes Mittel der Computergrafik, deren direkte Anwendung auf ein komplettes 3D-Stadtmodell jedoch häufig monotone sowie gestalterisch und kartographisch stark eingeschränkte Resultate liefert. Eine effiziente und kontextsensitive Kommunikation von 3D-Geoinformation bedarf jedoch der Kopplung von Objektsemantik und Abstraktionsverfahren. Diese Arbeit präsentiert ein Konzept und dessen Umsetzung, das die Auswahl und Parametrisierung von nicht-photorealistischen Darstellungstechniken auf Basis von Objektsemantiken erlaubt (Abbildung 1). Dies ermöglicht die Zuweisung unterschiedlicher automatischer Abstraktionstechniken zu Objekten und Objektgruppen. Der vorgestellte Ansatz ist echtzeitfähig und erlaubt eine interaktive Klassifikation von Objekten und Features zur Laufzeit, wodurch sich u.a. Szenarien zur interaktiven Exploration von thematisch-stilisierten Features bzw. feature-bezogenen Daten visualisieren lassen. Dieser Ansatz eröffnet Möglichkeiten für eine gezielte und systematische kartographische Gestaltung von 3D-Stadtmodellen sowie deren echtzeitfähige Implementierung durch entsprechende 3D-Visualisierungsdienste.",
+      "thumbnail" : "/img/2011-std.jpg",
+      "downloads" : [
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/225091333_Anstze_zur_kartographischen_Gestaltung_von_3D-Stadtmodellen/links/0fcfd503b640bd858f000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      } ]
+	}, 
+
+    { "key"       : "shtd2012",
+      "featured"  : "true",
+      "bibtex"    : "bib/2012-shtd.bib",
+      "title"     : "Concepts for Cartography-Oriented Visualization of Virtual 3D City Models",
+      "date"      : "2012-06-01",
+      "authors"   : [ "Amir Semmo", "Dieter Hildebrandt", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "Photogrammetrie - Fernerkundung - Geoinformation (PFG)",
+      "caption"   : "Virtual 3D city models serve as an effective medium with manifold applications in geoinformation systems and services. To date, most 3D city models are visualized using photorealistic graphics. But an effective communication of geoinformation significantly depends on how important information is designed and cognitively processed in the given application context. One possibility to visually emphasize important information is based on non-photorealistic rendering, which comprehends artistic depiction styles and is characterized by its expressiveness and communication aspects. However, a direct application of non-photorealistic rendering techniques primarily results in monotonic visualization that lacks cartographic design aspects. In this work, we present concepts for cartography-oriented visualization of virtual 3D city models. These are based on coupling non-photorealistic rendering techniques and semantics-based information for a user, context, and media-dependent representation of thematic information. This work highlights challenges for cartography-oriented visualization of 3D geovirtual environments, presents stylization techniques and discusses their applications and ideas for a standardized visualization. In particular, the presented concepts enable a real-time and dynamic visualization of thematic geoinformation.",
+      "thumbnail" : "/img/2012-shtd.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.1127/1432-8364/2012/0131",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/236892939_Concepts_for_Cartography-Oriented_Visualization_of_Virtual_3D_City_Models/links/00b4951ed2e74cf0d3000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      } ]
+    },
+
+    { "key"       : "pstd2012",
+      "featured"  : "false",
+      "bibtex"    : "bib/2012-pstd.bib",
+      "title"     : "Towards Comprehensible Digital 3D Maps",
+      "date"      : "2012-11-01",
+      "authors"   : [ "Sebastian Pasewaldt", "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "Proceedings Service-Oriented Mapping (SOMAP)",
+      "caption"   : "Digital mapping services have become fundamental tools in economy and society to provide domain experts and non-experts with customized, multi-layered map contents. In particular because of the continuous advancements in the acquisition, provision, and visualization of virtual 3D city and landscape models, 3D mapping services, today, represent key components to a growing number of applications, like car navigation, education, or disaster management. However, current systems and applications providing digital 3D maps are faced by drawbacks and limitations, such as occlusion, visual clutter, or insufficient use of screen space, that impact an effective comprehension of geoinformation. To this end, cartographers and computer graphics engineers developed design guidelines, rendering and visualization techniques that aim to increase the effectiveness and expressiveness of digital 3D maps, but whose seamless combination has yet to be achieved. This work discusses potentials of digital 3D maps that are based on combining cartography-oriented rendering techniques and multi-perspective views. For this purpose, a classification of cartographic design principles, visualization techniques, as well as suitable combinations are identified that aid comprehension of digital 3D maps. According to this classification, a prototypical implementation demonstrates the benefits of multi-perspective and non-photorealistic rendering techniques for visualization of 3D map contents. In particular, it enables (1) a seamless combination of cartography-oriented and photorealistic graphic styles while (2) increasing screen-space utilization, and (3) simultaneously directing a viewer’s gaze to important or prioritized information.",
+      "thumbnail" : "/img/2012-pstd.jpg",
+	  "downloads" : [
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/236892941_Towards_Comprehensible_Digital_3D_Maps/links/00b4951ed34ae0f586000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      }, 
+	  { "href"  : "http://www.hpi.uni-potsdam.de/fileadmin/user_upload/fachgebiete/doellner/publications/2012/PSTD2012/somap2012_pasewaldt_towards_comprehensible_3D_maps.pdf",
+        "desc"  : "Slides (PDF)"
+      } ]
+	},
+	
+    { "key"       : "stkd2012",
+      "featured"  : "true",
+      "bibtex"    : "bib/2012-stkd.bib",
+      "title"     : "Interactive Visualization of Generalized Virtual 3D City Models using Level-of-Abstraction Transitions",
+      "date"      : "2012-06-01",
+      "authors"   : [ "Amir Semmo", "Matthias Trapp", "Jan Eric Kyprianidis", "Jürgen Döllner" ],
+      "published" : "Computer Graphics Forum (Proceedings EuroVis)",
+      "caption"   : "Virtual 3D city models play an important role in the communication of complex geospatial information in a growing number of applications, such as urban planning, navigation, tourist information, and disaster management. In general, homogeneous graphic styles are used for visualization. For instance, photorealism is suitable for detailed presentations, and non-photorealism or abstract stylization is used to facilitate guidance of a viewer's gaze to prioritized information. However, to adapt visualization to different contexts and contents and to support saliency-guided visualization based on user interaction or dynamically changing thematic information, a combination of different graphic styles is necessary. Design and implementation of such combined graphic styles pose a number of challenges, specifically from the perspective of real-time 3D visualization. In this paper, the authors present a concept and an implementation of a system that enables different presentation styles, their seamless integration within a single view, and parametrized transitions between them, which are defined according to tasks, camera view, and image resolution. The paper outlines potential usage scenarios and application fields together with a performance evaluation of the implementation.",
+      "thumbnail" : "/img/2012-stkd.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.1111/j.1467-8659.2012.03081.x",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/236892943_Interactive_Visualization_of_Generalized_Virtual_3D_City_Models_using_Level-of-Abstraction_Transitions/links/0c96051c9c390e6ef2000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      }, 
+	  { "href"  : "http://www.youtube.com/watch?v=VXqtw44KxY4",
+        "desc"  : "Video (Youtube)"
+      } ]
+	},
+	
+	
+    { "key"       : "tsphdeh2012",
+      "featured"  : "false",
+      "bibtex"    : "bib/2012-tsphdeh.bib",
+      "title"     : "Colonia 3D - Communication of Virtual 3D Reconstructions in Public Spaces",
+      "date"      : "2012-01-01",
+      "authors"   : [ "Matthias Trapp", "Amir Semmo", "Rafael Pokorski", "Claus-Daniel Herrmann", "Jürgen Döllner", "Michael Eichhorn", "Michael Heinzelmann" ],
+      "published" : "International Journal of Heritage in the Digital Era (IJHDE)",
+      "caption"   : "The communication of cultural heritage in public spaces such as museums or exhibitions, gain more and more importance during the last years. The possibilities of interactive 3D applications open a new degree of freedom beyond the mere presentation of static visualizations, such as pre-produced video or image data. A user is now able to directly interact with 3D virtual environments that enable the depiction and exploration of digital cultural heritage artifacts in real-time. However, such technology requires concepts and strategies for guiding a user throughout these scenarios, since varying levels of experiences within interactive media can be assumed. This paper presents a concept as well as implementation for communication of digital cultural heritage in public spaces, by example of the project Roman Cologne. It describes the results achieved by an interdisciplinary team of archaeologists, designers, and computer graphics engineers with the aim to virtually reconstruct an interactive high-detail 3D city model of Roman Cologne.",
+      "thumbnail" : "/img/2012-tsphdeh.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.1260/2047-4970.1.1.45",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/262566519_Colonia_3D_-_Communication_of_Virtual_3D_Reconstructions_in_Public_Spaces/links/0deec53982e1459622000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      } ]
+	},
+
+    { "key"       : "estd2013",
+      "featured"  : "true",
+      "bibtex"    : "bib/2013-estd.bib",
+      "title"     : "Evaluating the Perceptual Impact of Rendering Techniques on Thematic Color Mappings in 3D Virtual Environments",
+      "date"      : "2012-06-01",
+      "authors"   : [ "Juri Engel", "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "Proceedings 18th International Workshop on Vision, Modeling and Visualization (VMV)",
+      "caption"   : "Using colors for thematic mapping is a fundamental approach in visualization, and has become essential for 3D virtual environments to effectively communicate multidimensional, thematic information. Preserving depth cues within these environments to emphasize spatial relations between geospatial features remains an important issue.A variety of rendering techniques have been developed to preserve depth cues in 3D information visualization, including shading, global illumination, and image stylization. However, these techniques alter color values, which may lead to ambiguity in a color mapping and loss of information. Depending on the applied rendering techniques and color mapping, this loss should be reduced while still preserving depth cues when communicating thematic information. This paper presents the results of a quantitative and qualitative user study that evaluates the impact of rendering techniques on information and spatial perception when using visualization of thematic data in 3D virtual environments. We report the results of this study with respect to four perception-related tasks, showing significant differences in error rate and task completion time for different rendering techniques and color mappings.",
+      "thumbnail" : "/img/2013-estd.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.2312/PE.VMV.VMV13.025-032",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/255681574_Evaluating_the_Perceptual_Impact_of_Rendering_Techniques_on_Thematic_Color_Mappings_in_3D_Virtual_Environments/links/00b49524aa9a344135000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      } ]
+	},
+
+    { "key"       : "ltsd2013",
+      "featured"  : "false",
+      "bibtex"    : "bib/2013-ltsd.bib",
+      "title"     : "Interactive Projective Texturing for Non-Photorealistic Shading of Technical 3D Models",
+      "date"      : "2013-09-01",
+      "authors"   : [ "Roland Lux", "Matthias Trapp", "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "Proceedings of 11th Theory and Practice of Computer Graphics 2013 Conference (TP.CG)",
+      "caption"   : "This paper presents a novel interactive rendering technique for creating and editing shadings for man-made objects in technical 3D visualizations. In contrast to shading approaches that use intensities computed based on surface normals (e.g., Phong, Gooch, Toon shading), the presented approach uses one-dimensional gradient textures, which can be parametrized and interactively manipulated based on per-object bounding volume approximations. The fully hardware-accelerated rendering technique is based on projective texture mapping and customizable intensity transfer functions. A provided performance evaluation shows comparable results to traditional normal-based shading approaches. The work also introduce simple direct-manipulation metaphors that enables interactive user control of the gradient texture alignment and intensity transfer functions.",
+      "thumbnail" : "/img/2013-ltsd.jpg",
+	  "downloads" : [
+      { "href"    : "http://www.youtube.com/watch?v=PmBTK8TbpPA",
+        "desc"    : "Vido (Youtube)"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/250615200_Interactive_Projective_Texturing_for_Non-Photorealistic_Shading_of_Technical_3D_Models/links/02e7e5230558a1e470000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      } ]
+	},
+
+    { "key"       : "sktd2013",
+      "featured"  : "true",
+      "bibtex"    : "bib/2013-sktd.bib",
+      "title"     : "Real-Time Rendering of Water Surfaces with Cartography-Oriented Design",
+      "date"      : "2013-07-01",
+      "authors"   : [ "Amir Semmo", "Jan Eric Kyprianidis", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "Proceedings International Symposium on Computational Aesthetics in Graphics, Visualization, and Imaging (CAe)",
+      "caption"   : "More than 70% of the Earth's surface is covered by oceans, seas, and lakes, making water surfaces one of the primary elements in geospatial visualization. Traditional approaches in computer graphics simulate and animate water surfaces in the most realistic ways. However, to improve orientation, navigation, and analysis tasks within 3D virtual environments, these surfaces need to be carefully designed to enhance shape perception and land-water distinction. We present an interactive system that renders water surfaces with cartography-oriented design using the conventions of mapmakers. Our approach is based on the observation that hand-drawn maps utilize and align texture features to shorelines with non-linear distance to improve figure-ground perception and express motion. To obtain local orientation and principal curvature directions, first, our system computes distance and feature-aligned distance maps. Given these maps, waterlining, water stippling, contour-hatching, and labeling are applied in real-time with spatial and temporal coherence. The presented methods can be useful for map exploration, landscaping, urban planning, and disaster management, which is demonstrated by various real-world virtual 3D city and landscape models.",
+      "thumbnail" : "/img/2013-sktd.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.1145/2487276.2487277",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/241686838_Real-Time_Rendering_of_Water_Surfaces_with_Cartography-Oriented_Design/links/0deec51c9c3079b2b4000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      },
+      { "href"    : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2013/SKTD13/asemmo-cae2013-slides.pdf",
+        "desc"    : "Presentation Slides (PDF)"
+      },
+      { "href"    : "http://www.youtube.com/watch?v=DFjjcMRWWoE",
+        "desc"    : "Video (Youtube)"
+      } ]
+	},
+
+    { "key"       : "sd2014",
+      "featured"  : "false",
+      "bibtex"    : "bib/2014-sd.bib",
+      "title"     : "Image Filtering for Interactive Level-of-Abstraction Visualization of 3D Scenes",
+      "date"      : "2014-07-01",
+      "authors"   : [ "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "Proceedings International Symposium on Computational Aesthetics in Graphics, Visualization, and Imaging (CAe)",
+      "caption"   : "Texture mapping is a key technology in computer graphics for visual design of rendered 3D scenes. An effective information transfer of surface properties, encoded by textures, however, depends significantly on how important information is highlighted and cognitively processed by the user in an application context. Edge-preserving image filtering is a promising approach to address this concern while preserving global salient structures. Much research has focused on applying image filters in a post-process stage to foster an artistically stylized rendering, but these approaches are generally not able to preserve depth cues important for 3D visualization (e.g., texture gradient). To this end, filtering that processes texture data coherently with respect to linear perspective and spatial relationships is required. In this work, we present a system that enables to process textured 3D scenes with perspective coherence by arbitrary image filters. We propose decoupled deferred texturing with (1) caching strategies to interactively perform image filtering prior to texture mapping, and (2) for each mipmap level separately to enable a progressive level of abstraction. We demonstrate the potentials of our methods on several applications, including illustrative visualization, focus+context visualization, geometric detail removal, and depth of field. Our system supports frame-to-frame coherence, order-independent transparency, multitexturing, and content-based filtering.",
+      "thumbnail" : "/img/2014-sd.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.1145/2630099.2630101",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/264324992_Image_Filtering_for_Interactive_Level-of-Abstraction_Visualization_of_3D_Scenes/links/53d8df1e0cf2631430c36da2.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      },
+	  { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/264325270_Image_Filtering_for_Interactive_Level-of-Abstraction_Visualization_of_3D_Scenes_-_Additional_Material/links/53d8df670cf2e38c6331b7b8.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Additional Material (PDF)"
+      },
+      { "href"    : "http://www.youtube.com/watch?v=Vqh3OQbWPpI",
+        "desc"    : "Video (Youtube)"
+      } ]
+	},
+
+    { "key"       : "sd2014_3",
+      "featured"  : "false",
+      "bibtex"    : "bib/2014-sd_3.bib",
+      "title"     : "An Interaction Framework for Level-of-Abstraction Visualization of 3D Geovirtual Environments",
+      "date"      : "2014-11-01",
+      "authors"   : [ "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "Proceedings 2nd ACM SIGSPATIAL Workshop on MapInteraction",
+      "caption"   : "3D geovirtual environments constitute effective media for the analysis and communication of complex geospatial data. Today, these environments are often visualized using static graphical variants (e.g., 2D maps, 3D photorealistic) from which a user is able to choose from. To serve the different interests of users in specific information, however, the spatial and thematic granularity at which model contents are represented (i.e., level of abstraction) should be dynamically adapted to the user's context, which requires specialized interaction techniques for parameterization. In this work, we present a framework that enables interaction interfaces to parameterize the level-of-abstraction visualization according to spatial, semantic, and thematic data. The framework is implemented in a visualization system that provides image-based rendering techniques for context-aware abstraction and highlighting. Using touch and natural language interfaces, we demonstrate its versatile application to geospatial tasks, including exploration, navigation, and orientation.",
+      "thumbnail" : "/img/2014-sd_3.jpg",
+	  "downloads" : [
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/269762694_An_Interaction_Framework_for_Level-of-Abstraction_Visualization_of_3D_Geovirtual_Environments/links/54eee2f00cf2e2830865bb5a.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      } ]
+	},
+
+    { "key"       : "sd2014_2",
+      "featured"  : "false",
+      "bibtex"    : "bib/2014-sd_2.bib",
+      "title"     : "Oil Paint Filtering Using Color Palettes For Colorization",
+      "date"      : "2014-08-01",
+      "authors"   : [ "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "Expressive Poster Session",
+      "caption"   : "We present a novel technique for oil paint filtering that uses color palettes for colorization. First, dominant feature-aware colors are derived from the input image via entropy-based metrics. Seed pixels are then determined and propagated to the remaining pixels by adopting the optimization framework of Levin et al. [2004] for feature-aware colorization. Finally, the quantized output is combined with flow-based highlights and contour lines to simulate paint texture. Our technique leads to homogeneous outputs in the color domain and enables interactive control over color definitions.",
+      "thumbnail" : "/img/2014-sd_2.jpg",
+	  "downloads" : [
+      { "href"    : "http://hpi.de/fileadmin/user_upload/fachgebiete/doellner/publications/2014/SD2014_2/expressive_2014_semmo.pdf",
+        "desc"    : "Paper (PDF)"
+      } ]
+	},
+
+    { "key"       : "pstd2014",
+      "featured"  : "true",
+      "bibtex"    : "bib/2014-pstd.bib",
+      "title"     : "Multi-Perspective 3D Panoramas",
+      "date"      : "2014-08-01",
+      "authors"   : [ "Sebastian Pasewaldt", "Amir Semmo", "Matthias Trapp", "Jürgen Döllner" ],
+      "published" : "International Journal of Geographical Information Science (IJGIS)",
+      "caption"   : "This article presents multi-perspective 3D panoramas that focus on visualizing 3D geovirtual environments (3D GeoVEs) for navigation and exploration tasks. Their key element, a multi-perspective view, seamlessly combines what is seen from multiple viewpoints into a single image. This approach facilitates thepresentation of information for virtual 3D city and landscape models, particularly by reducing occlusions, increasing screen-space utilization, and providing additional context within a single image. We complement multi-perspective views with cartographic visualization techniques to stylize features according to their semantics and highlight important or prioritized information. When combined, both techniques constitute the core implementation of interactive, multi-perspective 3D panoramas. They offer a large number of effective means for visual communication of 3D spatial information, a high degree of customization with respect to cartographic design, and manifold applications in different domains. We discuss design decisions of 3D panoramas for the exploration of and navigation in 3D GeoVEs. We also discuss a preliminary user study that indicates that 3D panoramas are a promising approach for navigation systems using 3D GeoVEs.",
+      "thumbnail" : "/img/2014-pstd.jpg",
+	  "downloads" : [
+	  { "href"    : "http://dx.doi.org/10.1080/13658816.2014.922686",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/262566376_Multi-Perspective_3D_Panoramas/links/0f31753b2a3de554d4000000.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      }	  ]
+	},
+
+    { "key"       : "tsd2015",
+      "featured"  : "false",
+      "bibtex"    : "bib/2015-tsd.bib",
+      "title"     : "Interactive Rendering and Stylization of Transportation Networks Using Distance Fields",
+      "date"      : "2015-04-01",
+      "authors"   : [ "Matthias Trapp", "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "Proceedings of the 10th International Conference on Computer Graphics Theory and Applications (GRAPP)",
+      "caption"   : "Transportation networks, such as streets, railroads or metro systems, constitute primary elements in cartography for reckoning and navigation. In recent years, they have become an increasingly important part of 3D virtual environments for the interactive analysis and communication of complex hierarchical information, for example in routing, logistics optimization, and disaster management. A variety of rendering techniques have been proposed that deal with integrating transportation networks within these environments, but have so far neglected the many challenges of an interactive design process to adapt their spatial and thematic granularity (i.e., level-of-detail and level-of-abstraction) according to a user's context. This paper presents an efficient real-time rendering technique for the view-dependent rendering of geometrically complex transportation networks within 3D virtual environments. Our technique is based on distance fields using deferred texturing that shifts the design process to the shading stage for real-time stylization. We demonstrate and discuss our approach by means of street networks using cartographic design principles for context-aware stylization, including view-dependent scaling for clutter reduction, contour-lining to provide figure-ground, handling of street crossings via shading-based blending, and task-dependent colorization. Finally, we present potential usage scenarios and applications together with a performance evaluation of our implementation.",
+      "thumbnail" : "/img/2015-tsd.jpg",
+	  "downloads" : [
+	  { "href"    : "http://www.researchgate.net/profile/Matthias_Trapp/publication/269697434_Interactive_Rendering_and_Stylization_of_Transportation_Networks_Using_Distance_Fields/links/5506a7d50cf2d60c0e6d3a09.pdf?ev=pub_ext_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      }	]
+	},
+
+    { "key"       : "sd2015",
+      "featured"  : "true",
+      "bibtex"    : "bib/2015-sd.bib",
+      "title"     : "Interactive Image Filtering for Level-of-Abstraction Texturing of Virtual 3D Scenes",
+      "date"      : "2015-04-01",
+      "authors"   : [ "Amir Semmo", "Jürgen Döllner" ],
+      "published" : "Computers & Graphics",
+      "caption"   : "Texture mapping is a key technology in computer graphics. For the visual design of 3D scenes, in particular, effective texturing depends significantly on how important contents are expressed, e.g., by preserving global salient structures, and how their depiction is cognitively processed by the user in an application context. Edge-preserving image filtering is one key approach to address these concerns. Much research has focused on applying image filters in a post-process stage to generate artistically stylized depictions. However, these approaches generally do not preserve depth cues, which are important for the perception of 3D visualization (e.g., texture gradient). To this end, filtering is required that processes texture data coherently with respect to linear perspective and spatial relationships. In this work, we present an approach for texturing 3D scenes with perspective coherence by arbitrary image filters. We propose decoupled deferred texturing with (1) caching strategies to interactively perform image filtering prior to texture mapping and (2) for each mipmap level separately to enable a progressive level of abstraction, using (3) direct interaction interfaces to parameterize the visualization according to spatial, semantic, and thematic data. We demonstrate the potentials of our method by several applications using touch or natural language inputs to serve the different interests of users in specific information, including illustrative visualization, focus+context visualization, geometric detail removal, and semantic depth of field. The approach supports frame-to-frame coherence, order-independent transparency, multitexturing, and content-based filtering. In addition, it seamlessly integrates into real-time rendering pipelines, and is extensible for custom interaction techniques.",
+      "thumbnail" : "/img/2015-sd.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1016/j.cag.2015.02.001",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/272793885_Interactive_Image_Filtering_for_Level-of-Abstraction_Texturing_of_Virtual_3D_Scenes/links/54f977f10cf2ccffe9e133e4.pdf",
+        "desc"    : "Paper (PDF)"
+      }	]
+    },
+	
+      { "key"       : "slkd2015",
+      "featured"  : "false",
+      "bibtex"    : "bib/2015-slkd.bib",
+      "title"     : "Image Stylization by Oil Paint Filtering using Color Palettes",
+      "date"      : "2015-06-01",
+      "authors"   : [ "Amir Semmo", "Daniel Limberger", "Jan Eric Kyprianidis", "Jürgen Döllner" ],
+      "published" : "Proceedings International Symposium on Computational Aesthetics in Graphics, Visualization, and Imaging (CAe)",
+      "caption"   : "This paper presents an approach for transforming images into an oil paint look. To this end, a color quantization scheme is proposed that performs feature-aware recolorization using the dominant colors of the input image. In addition, an approach for real-time computation of paint textures is presented that builds on the smoothed structure adapted to the main feature contours of the quantized image. Our stylization technique leads to homogeneous outputs in the color domain and enables creative control over the visual output, such as color adjustments and per-pixel parametrizations by means of interactive painting.",
+      "thumbnail" : "/img/2015-slkd.jpg",
+      "flickr"    : "72157652814171753",
+      "downloads" : [
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/277531015_Image_Stylization_by_Oil_Paint_Filtering_using_Color_Palettes/links/556c35b208aeccd7773a2f85.pdf?ev=pub_int_doc_dl&origin=publication_detail",
+        "desc"    : "Paper (PDF)"
+      },
+      { "href"  : "https://drive.google.com/file/d/0ByqyK4WwkIzQWk9KRDNMdmxQU0U/view",
+        "desc"  : "Filter Results (Images / ZIP, 191 MiB)"
+      } ]
+    },
+	
+	{ "key"       : "stjd2015",
+      "featured"  : "true",
+      "bibtex"    : "bib/2015-stjd.bib",
+      "title"     : "Cartography-Oriented Design of 3D Geospatial Information Visualization - Overview and Techniques",
+      "date"      : "2015-07-01",
+      "authors"   : [ "Amir Semmo", "Matthias Trapp", "Markus Jobst", "Jürgen Döllner" ],
+      "published" : "The Cartographic Journal (International Cartographic Conference)",
+      "caption"   : "In economy, society and personal life map-based, interactive geospatial visualization becomes a natural element of a growing number of applications and systems. The visualization of 3D geospatial information, however, raises the question how to represent the information in an effective way. Considerable research has been done in technology-driven directions in the fields of cartography and computer graphics (e.g., design principles, visualization techniques). Here, non-photorealistic rendering represents a promising visualization category–situated between both fields–that offers a large number of degrees for the cartography-oriented visual design of complex 2D and 3D geospatial information for a given application context. Still today, however, specifications and techniques for mapping cartographic design principles to the state-of-the-art rendering pipeline of 3D computer graphics remain to be explored. This paper revisits cartographic design principles for 3D geospatial visualization and introduces an extended 3D semiotic model that complies with the general, interactive visualization pipeline. Based on this model, we propose non-photorealistic rendering techniques to interactively synthesize cartographic renditions of basic feature types, such as terrain, water, and buildings. In particular, it includes a novel iconification concept to seamlessly interpolate between photorealistic and cartographic representations of 3D landmarks. Our work concludes with a discussion of open challenges in this field of research, including topics such as user interaction and evaluation.",
+      "thumbnail" : "/img/2015-stjd.jpg",
+      "downloads" : [
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/278685987_Cartography-Oriented_Design_of_3D_Geospatial_Information_Visualization_-_Overview_and_Techniques/links/558fc25308ae47a3490daaff.pdf?ev=pub_int_doc_dl&origin=publication_detail",
+        "desc"    : "Paper / Preprint (PDF)"
+      },
+      { "href"    : "http://www.maneyonline.com/loi/caj",
+        "desc"    : "Link to Journal"
+      } ]
+	  
+    },
+    
+    { "key"       : "slkd2016",
+      "featured"  : "true",
+      "bibtex"    : "bib/2016-slkd.bib",
+      "title"     : "Image Stylization by Interactive Oil Paint Filtering",
+      "date"      : "2016-01-01",
+      "authors"   : [ "Amir Semmo", "Daniel Limberger", "Jan Eric Kyprianidis", "Jürgen Döllner" ],
+      "published" : "Computers & Graphics",
+      "caption"   : "This paper presents an interactive system for transforming images into an oil paint look. The system comprises two major stages. First, it derives dominant colors from an input image for feature-aware recolorization and quantization to conform with a global color palette. Afterwards, it employs non-linear filtering based on the smoothed structure adapted to the main feature contours of the quantized image to synthesize a paint texture in real-time. Our filtering approach leads to homogeneous outputs in the color domain and enables creative control over the visual output, such as color adjustments and per-pixel parametrizations by means of interactive painting. To this end, our system introduces a generalized brush-based painting interface that operates within parameter spaces to locally adjust the level of abstraction of the filtering effects. Several results demonstrate the various applications of our filtering approach to different genres of photography.",
+      "thumbnail" : "/img/2016-slkd.jpg",
+      "flickr"    : "72157652814171753",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1016/j.cag.2015.12.001",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/289694790_Image_stylization_by_interactive_oil_paint_filtering/links/56a3bb4b08ae232fb20597b8.pdf",
+        "desc"    : "Paper (PDF)"
+      },
+      { "href"  : "https://drive.google.com/file/d/0ByqyK4WwkIzQWk9KRDNMdmxQU0U/view",
+        "desc"  : "Filter Results (Images / ZIP, 191 MiB)"
+      }	]
+    },
+    
+    { "key"       : "stpd2016",
+      "featured"  : "false",
+      "bibtex"    : "bib/2016-stpd.bib",
+      "title"     : "Interactive Oil Paint Filtering On Mobile Devices",
+      "date"      : "2016-05-01",
+      "authors"   : [ "Amir Semmo", "Mattias Trapp", "Sebastian Pasewaldt", "Jürgen Döllner" ],
+      "published" : "Expressive Poster Session",
+      "caption"   : "Image stylization enjoys a growing popularity on mobile devices to foster casual creativity. However, the implementation and provision of high-quality image filters for artistic rendering is still faced by the inherent limitations of mobile graphics hardware such as computing power and memory resources. This work presents a mobile implementation of a filter that transforms images into an oil paint look, thereby highlighting concepts and techniques on how to perform multi-stage nonlinear image filtering on mobile devices. The proposed implementation is based on OpenGL ES and the OpenGL ES shading language, and supports on-screen painting to interactively adjust the appearance in local image regions, e.g., to vary the level of abstraction, brush, and stroke direction. Evaluations of the implementation indicate interactive performance and results that are of similar aesthetic quality than its original desktop variant.",
+      "thumbnail" : "/img/2016-stpd.jpg",
+      "downloads" : [
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/304101574_Interactive_Oil_Paint_Filtering_On_Mobile_Devices/links/57667c7708ae1658e2f6ff30.pdf",
+        "desc"    : "Paper (PDF)"
+      } ]
+    },
+    
+    { "key"       : "stddp2016",
+      "featured"  : "false",
+      "bibtex"    : "bib/2016-stddp.bib",
+      "title"     : "Interactive Multi-scale Oil Paint Filtering on Mobile Devices",
+      "date"      : "2016-07-01",
+      "authors"   : [ "Amir Semmo", "Mattias Trapp", "Tobias Dürschmid", "Jürgen Döllner", "Sebastian Pasewaldt" ],
+      "published" : "ACM SIGGRAPH Posters",
+      "caption"   : "This work presents an interactive mobile implementation of a filter that transforms images into an oil paint look. At this, a multi-scale approach that processes image pyramids is introduced that uses flow-based joint bilateral upsampling to achieve deliberate levels of abstraction at multiple scales and interactive frame rates. The approach facilitates the implementation of interactive tools that adjust the appearance of filtering effects at run-time, which is demonstrated by an on-screen painting interface for per-pixel parameterization that fosters the casual creativity of non-artists.",
+      "thumbnail" : "/img/2016-stddp.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/2945078.2945120",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/304101256_Interactive_Multi-scale_Oil_Paint_Filtering_on_Mobile_Devices/links/57667a4a08ae421c448c2d55.pdf",
+        "desc"    : "Paper (PDF)"
+      }	]
+    },
+    
+    { "key"       : "sds2016",
+      "featured"  : "true",
+      "bibtex"    : "bib/2016-sds.bib",
+      "title"     : "BeCasso: Image Stylization by Interactive Oil Paint Filtering on Mobile Devices",
+      "date"      : "2016-07-01",
+      "authors"   : [ "Amir Semmo", "Jürgen Döllner", "Frank Schlegel" ],
+      "published" : "ACM SIGGRAPH Appy Hour",
+      "caption"   : "BeCasso is a mobile app that enables users to transform photos into an oil paint look that is inspired by traditional painting elements. In contrast to stroke-based approaches, the app uses state-of-the-art nonlinear image filtering techniques based on smoothed structure information to interactively synthesize oil paint renderings with soft color transitions. BeCasso empowers users to easily create aesthetic oil paint renderings by implementing a two-fold strategy. First, it provides parameter presets that may serve as a starting point for a custom stylization based on global parameter adjustments. Second, it introduces a novel interaction approach that operates within the parameter spaces of the stylization effect to facilitate creative control over the visual output: on-screen painting enables users to locally adjust the appearance in image regions, e.g., to vary the level of abstraction, brush and stroke direction. This way, the app provides tools for both higher-level interaction and low-level control to serve the different needs of non-experts and digital artists. ",
+      "thumbnail" : "/img/2016-sds.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/2936744.2936750",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/304101445_BeCasso_Image_Stylization_by_Interactive_Oil_Paint_Filtering_on_Mobile_Devices/links/57667af108ae1658e2f6ff17.pdf",
+        "desc"    : "Paper (PDF)"
+      }	]
+    },
+   
+   { "key"       : "PTSD2016",
+      "featured"  : "false",
+      "title"     : "BeCasso: Artistic Image Processing and Editing on Mobile Devices",
+      "date"      : "2016-12-01",
+      "authors"   : [ "Sebastian Pasewaldt", "Amir Semmo", "Jürgen Döllner", "Frank Schlegel" ],
+      "published" : "ACM SIGGRAPH Asia Symposium on Mobile Graphics and Interactive Applications (Demo)",
+      "caption"   : "BeCasso is a mobile app that enables users to transform photos into high-quality, high-resolution non-photorealistic renditions, such as oil and watercolor paintings, cartoons, and colored pencil drawings, which are inspired by real-world paintings or drawing techniques. In contrast to neuronal network and physically-based approaches, the app employs state-of-the-art nonlinear image filtering. For example, oil paint and cartoon effects are based on smoothed structure information to interactively synthesize renderings with soft color transitions. BeCasso empowers users to easily create aesthetic renderings by implementing a two-fold strategy: First, it provides parameter presets that may serve as a starting point for a custom stylization based on global parameter adjustments. Thereby, users can obtain initial renditions that may be fine-tuned afterwards. Second, it enables local style adjustments: using on-screen painting metaphors, users are able to locally adjust different stylization features, e.g., to vary the level of abstraction, pen, brush and stroke direction or the contour lines. In this way, the app provides tools for both higher-level interaction and low-level control to serve the different needs of non-experts and digital artists.",
+      "thumbnail" : "/img/2016-ssds.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/2999508.2999518",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/309284216_BeCasso_-_Artistic_Image_Processing_and_Editing_on_Mobile_Devices/links/58078d0f08ae07cbaa54207a.pdf",
+        "desc"    : "Paper (PDF)"
+      } ]
+    },
+   
+   { "key"       : "SDTKDP2016",
+      "featured"  : "true",
+      "title"     : "Interactive Image Filtering with Multiple Levels-of-Control on Mobile Devices",
+      "date"      : "2016-12-01",
+      "authors"   : [ "Amir Semmo", "Tobias Dürschmid", "Matthias Trapp", "Mandy Klingbeil", "Jürgen Döllner", "Sebastian Pasewaldt" ],
+      "published" : "ACM SIGGRAPH Asia Symposium on Mobile Graphics and Interactive Applications",
+      "caption"   : "With the continuous development of mobile graphics hardware, interactive high-quality image stylization based on nonlinear filtering is becoming feasible and increasingly used in casual creativity apps. However, these apps often only serve high-level controls to parameterize image filters and generally lack support for low-level (artistic) control, thus automating art creation rather than assisting it. This work presents a GPU-based framework that enables to parameterize image filters at three levels of control: (1) presets followed by (2) global parameter adjustments can be interactively refined by (3) complementary on-screen painting that operates within the filters' parameter spaces for local adjustments. The framework provides a modular XML-based effect scheme to effectively build complex image processing chains-using these interactive filters as building blocks-that can be efficiently processed on mobile devices. Thereby, global and local parameterizations are directed with higher-level algorithmic support to ease the interactive editing process, which is demonstrated by state-of-the-art stylization effects, such as oil paint filtering and watercolor rendering.",
+      "thumbnail" : "/img/2016-sdtkdp.jpg",
+      "downloads" : [
+      { "href"    : "http://dx.doi.org/10.1145/2999508.2999521",
+        "desc"    : "DOI"
+      },
+      { "href"    : "http://www.researchgate.net/profile/Amir_Semmo/publication/309284140_Interactive_Image_Filtering_with_Multiple_Levels-of-Control_on_Mobile_Devices/links/58078c5908ae5ed04bfe62d7.pdf",
+        "desc"    : "Paper (PDF)"
+      } ]
+    }
+   
+ ]

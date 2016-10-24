@@ -1,0 +1,98 @@
+  [ { "key"       : "pc2016",
+    "featured"  : "true",
+    "title"     :  "Efficient Volumetric PolyCube-Map Construction",
+    "date"      : "2016-08-20",
+    "authors"   : [ 
+					{"href" : "http://staff.ustc.edu.cn/~fuxm/",
+					 "desc" : "Xiaoming Fu"},
+					{"isme" : "true",
+					 "desc" : "Chongyang Bai"},
+					{"href" : "http://research.microsoft.com/en-us/um/people/yangliu/",
+					 "desc" : "Yang Liu"}
+					
+				  ],
+    "published" : "Computer Graphics Forum (Pacific Graphics) 35(7),",
+    "caption"   : "PolyCubes provide compact representations for closed complex shapes and are essential to many computer graphics applications. Existing automatic PolyCube construction methods usually suffer from poor quality or time-consuming computation. In this paper, we provide a highly efficient method to compute volumetric PolyCube-maps. Given an input tetrahedral mesh, we utilize two novel normal-driven volumetric deformation schemes and a polycube-allowable mesh segmentation to drive the input to a volumetric PolyCube structure. Our method can robustly generate foldover-free and low-distortion PolyCube-maps in practice, and provide a flexible control on the number of corners of Polycubes. Compared with state-of-the-art methods, our method is at least one order of magnitude faster and has better mapping qualities. We demonstrate the efficiency and efficacy of our method in PolyCube construction and all-hexahedral meshing on various complex models.",
+    "thumbnail" : "/img/polycube.png",
+    "downloads" : [
+    { "href"  : "http://staff.ustc.edu.cn/~fuxm/projects/EfficientPolyCube/index.html",
+      "desc"  : "Project page"
+    },
+	]
+    },
+	 { "key"       : "pq2016",
+    "featured"  : "false",
+    "title"     :  "Generalized PolyQuad Aided Planar Quadrilateral Mesh Generation",
+    "date"      : "2016-06-01",
+    "authors"   : [ 
+					{"isme" : "true",
+					 "desc" : "Chongyang Bai"},
+					{"href" : "http://research.microsoft.com/en-us/um/people/yangliu/",
+					 "desc" : "Yang Liu(advisor)"}
+				  ],
+    "published" : "Dissertation for Bachelor's Degree,",
+    "caption"   : "Recently, various planar quadrilateral mesh generation methods are either not fully automatic and robust enough, or will produce too many singularities for complex and irregular planar domains. To solve this problem, our idea is simplifying the boundary of input triangle mesh first, i.e. deforming it to a generalized PolyQuad, and computing an inversion-free mapping between them at the same time, then using existed algorithms to generate a quadrilateral mesh of good quality, finally mapping the mesh back to the initial domain. In addition, an advanced mesh optimization algorithm is employed to improve mesh quality after the topology is determined. A medial axis based geometry decomposition method is used to prove our algorithm, which generates singularity controllable planar quadrilateral meshes efficiently and robustly.",
+    "thumbnail" : "/img/polyquad.png",
+    "downloads" : [
+    { "href"  : "/pdfs/graduation_project.pdf",
+      "desc"  : "Pdf"
+    },
+	{ "href"  : "https://www.youtube.com/watch?v=3-uLpQ70QY4",
+        "desc"  : "Video (Youtube)"
+      }
+	]
+    },
+	{ "key"       : "wr2016",
+    "featured"  : "false",
+    "title"     :  "Word Reciting Module of Microsoft Bing Dictionary UWP(V2.0.0)",
+    "date"      : "2016-02-01",
+    "authors"   : [ 
+					{"isme" : "true",
+					 "desc" : "Chongyang Bai"},
+					{"href" : "http://home.ustc.edu.cn/~lrq/",
+					 "desc" : "Renqian Luo"},
+					 {"isme" : "false","desc" : "Wei Zhang"},
+					 {"isme" : "false","desc" : "Liyuan Liu"},
+					 {"isme" : "false","desc" : "Shuo Ren"},
+					
+				  ],
+    "published" : "Microsoft Store,",
+    "caption"   : "In word reciting module of this app, we substitute the discrete choice between 'known' and 'unknown' for a continue value of familiarity of a word(calculated by the time of recall), algorithm 'MemReflex' is employed to compute next time of word review. Based on the concept, we design a refreshing user interaction: when the user presses a button, a word is shown and clocking starts, when the user remembers the meaning and releases the button, the clocking ends.\n
+	Our app has the following features: i.adapted in mobile, tablet and PC ii.add/remove user dictionary list iii.recting both user-created and system dictionary iv.night mode v.tag easy/hard words conveniently vi.repeal wrong operation vii.user teaching mode. ",
+    "thumbnail" : "/img/bing.png",
+    "downloads" : [
+    { "href"  : "https://www.microsoft.com/en-us/store/p/%E5%BE%AE%E8%BD%AF%E5%BF%85%E5%BA%94%E8%AF%8D%E5%85%B8-win10/9nblggh63sw0",
+      "desc"  : "Download"
+    },
+	{ "href"  : "https://www.youtube.com/watch?v=PPWlmNjWZjA",
+        "desc"  : "Video (Youtube)"
+      },
+	  { "href"  : "http://pire.fiu.edu/publications/memreflex.pdf
+",
+        "desc"  : "Algorithm: MemReflex"
+      },
+     	  
+	]
+    },
+	{ "key"       : "ga2014",
+    "featured"  : "false",
+    "title"     :  "3D Action Game: Dhammapala",
+    "date"      : "2014-12-01",
+    "authors"   : [ 
+	                {"isme" : "false","desc" : "Wenjie Qin"},
+					{"isme" : "true",
+					 "desc" : "Chongyang Bai"},
+					{"isme": "false",
+					 "desc" : "Yuan Chang"},
+				  ],
+    "published" : "Course Project of Computer Graphics,",
+    "caption"   : "The simple game is created by Unity 3D, with basic scene elements and character actions. We built game scene and implemented the movements and fight of characters. We also implemented the mini map and different difficulty levels.",
+    "thumbnail" : "/img/game.png",
+    "downloads" : [
+	{ "href"  : "https://youtu.be/rALszOvEvK0",
+        "desc"  : "Video (Youtube)"
+      } 
+	]
+    }
+  	
+  ]

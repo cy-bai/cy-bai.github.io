@@ -1,0 +1,64 @@
+[ { "slidedeck" : [ 
+    { "img"      : "bridge_accordion.jpg",
+	  "thumbnail": "bridge_accordion_th.png",
+	  "title":     "Accordion Show: Bridge"
+    },
+    { "img"      : "chorale.jpg",
+	  "thumbnail": "chorale_th.png",
+	  "title":     "USTC Student Chorus Performance"
+    },
+	
+	{ "img"      : "volunteer_teach.jpg",
+	  "thumbnail": "volunteer_teach_th.jpg",
+	  "title":     "Volunteer in KongDian Primary School"
+    },
+	{ "img"      : "winedown_host.jpg",
+	  "thumbnail": "winedown_host_th.png",
+	  "title":     "Host in MSRA Wine Down Party"
+    },
+	{ "img"      : "tico_accordion.jpg",
+	  "thumbnail": "tico_accordion_th.png",
+	  "title":     "Accordion Show: TicoTico"
+    },	
+ ] },
+ ]
+ 
+ /*{ "img"      : "msra_familyday_host.jpg",
+	  "thumbnail": "msra_familyday_host_th.png",
+	  "title":     "Host in MSRA Family Day "
+	  
+    },*/
+ /* { "slidedeck" : [
+    { "img"      : "1.jpg",
+	  "thumbnail": "1th.jpg",
+	  "title":     "Magic Lens Stylization"
+    },
+	{ "img"      : "1.jpg",
+	  "thumbnail": "1th.jpg",
+	  "title":     "Magic Lens Stylization"
+    },
+	{ "img"      : "1.jpg",
+	  "thumbnail": "1th.jpg",
+	  "title":     "Magic Lens Stylization"
+    },
+    ] }*/
+
+
+
+/* { "img"      : "blueprint.jpg",
+	  "thumbnail": "blueprint_th.jpg",
+	  "title":     "Blueprint Rendering"
+    },
+    { "img"      : "blueprint2.jpg",
+	  "thumbnail": "blueprint2_th.jpg",
+	  "title":     "Blueprint Rendering"
+    },*/
+
+/*    { "img"      : "flooding.jpg",
+	  "thumbnail": "flooding_th.jpg",
+	  "title":     "Cartography-Oriented Visualization"
+    },
+    { "img"      : "interaction.jpg",
+	  "thumbnail": "interaction_th.jpg",
+	  "title":     "Interaction in 3D Spaces"
+  }*/
