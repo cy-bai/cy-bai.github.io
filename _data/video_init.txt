@@ -1,8 +1,0 @@
-{ "link"      : "http://www.youtube.com/embed/T65gbk8Ruk4"
-  },
-  { "link"      : "http://www.youtube.com/embed/Vqh3OQbWPpI"
-  },
-  { "link"      : "http://www.youtube.com/embed/DFjjcMRWWoE"
-  },
-  { "link"      : "http://www.youtube.com/embed/VXqtw44KxY4"
-  } 
