@@ -35,7 +35,7 @@
     "thumbnail" : "img/polyquad.png",
     "downloads" : [
     { "href"  : "pdfs/graduation_project.pdf",
-      "desc"  : "Pdf"
+      "desc"  : "Pdf(Chinese version)"
     },
 	{ "href"  : "https://www.youtube.com/watch?v=3-uLpQ70QY4",
         "desc"  : "Video (Youtube)"
