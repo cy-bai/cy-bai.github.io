@@ -19,14 +19,16 @@
         <h4>{{ p.title }}</h4>
         <!--<p>{% for author in p.authors %}{% if author == p.authors.last %}and {% endif %}{{ author }}{% if p.authors.size > 2 and author != p.authors.last %},{% endif %} {% endfor %}<br><span class="text-danger">{{ p.published }} {{ p.date | date: '%Y' }}</span></p>-->
         
-        <p>{% for author in p.authors %}
+		 <p>{% for author in p.authors %}
         	{% if author == p.authors.last %}and {% endif %}
-            {% if author.isme %}<b>{{author.desc}}</b>
-        	{% else if author.href %}<a href="{{ author.href }}" target="_blank">{{ author.desc}}</a>
-        	{% else %}{{ author.desc }}
+            {% if author.isme == "true" %}<b>{{author.desc}}</b>{% endif %}
+            {% if author.isme == "false" %}{{ author.desc }}{%endif%}
+        	{% if author.href %}<a href="{{ author.href }}" target="_blank">{{ author.desc}}</a>
+        	
             {% endif %}
             {% if p.authors.size > 2 and author != p.authors.last %},{% endif %}
            {% endfor %}<br><span class="text-danger">{{ p.published }} {{ p.date | date: '%Y' }}</span></p>
+		
         
         <p>{{ p.caption }}</p>
         <p>

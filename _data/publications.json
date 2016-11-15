@@ -16,7 +16,7 @@
     "thumbnail" : "img/polycube.png",
     "downloads" : [
     { "href"  : "http://staff.ustc.edu.cn/~fuxm/projects/EfficientPolyCube/index.html",
-      "desc"  : "Project page"
+      "desc"  : "Project Page"
     },
 	]
     },
@@ -28,22 +28,22 @@
 					{"isme" : "true",
 					 "desc" : "Chongyang Bai"},
 					{"href" : "http://research.microsoft.com/en-us/um/people/yangliu/",
-					 "desc" : "Yang Liu(advisor)"}
+					 "desc" : "Yang Liu (advisor)"}
 				  ],
     "published" : "Dissertation for Bachelor's Degree,",
     "caption"   : "Recently, various planar quadrilateral mesh generation methods are either not fully automatic and robust enough, or will produce too many singularities for complex and irregular planar domains. To solve this problem, our idea is simplifying the boundary of input triangle mesh first, i.e. deforming it to a generalized PolyQuad, and computing an inversion-free mapping between them at the same time, then using existed algorithms to generate a quadrilateral mesh of good quality, finally mapping the mesh back to the initial domain. In addition, an advanced mesh optimization algorithm is employed to improve mesh quality after the topology is determined. A medial axis based geometry decomposition method is used to prove our algorithm, which generates singularity controllable planar quadrilateral meshes efficiently and robustly.",
     "thumbnail" : "img/polyquad.png",
     "downloads" : [
     { "href"  : "pdfs/graduation_project.pdf",
-      "desc"  : "Pdf(Chinese version)"
+      "desc"  : "PDF (Chinese version)"
     },
 	{ "href"  : "https://www.youtube.com/watch?v=3-uLpQ70QY4",
-        "desc"  : "Video (Youtube)"
+        "desc"  : "Video (YouTube)"
       }
 	]
     },
 	{ "key"       : "wr2016",
-    "featured"  : "false",
+    "featured"  : "true",
     "title"     :  "Word Reciting Module of Microsoft Bing Dictionary UWP(V2.0.0)",
     "date"      : "2016-02-01",
     "authors"   : [ 
@@ -57,7 +57,7 @@
 					
 				  ],
     "published" : "Microsoft Store,",
-    "caption"   : "In word reciting module of this app, we substitute the discrete choice between 'known' and 'unknown' for a continue value of familiarity of a word(calculated by the time of recall), algorithm 'MemReflex' is employed to compute next time of word review. Based on the concept, we design a refreshing user interaction: when the user presses a button, a word is shown and clocking starts, when the user remembers the meaning and releases the button, the clocking ends.\n
+    "caption"   : "In word reciting module of this app, we substitute the discrete choice between 'known' and 'unknown' for a continue metric of familiarity of a word(calculated by the time of recall), algorithm 'MemReflex' is employed to compute the reminder time of next word review. Based on the concept, we design a refreshing and friendly user interaction: when the user presses a button, a word is shown and clocking starts, when the user remembers the word and releases the button, the clocking ends.\n
 	Our app has the following features: i.adapted in mobile, tablet and PC ii.add/remove user dictionary list iii.recting both user-created and system dictionary iv.night mode v.tag easy/hard words conveniently vi.repeal wrong operation vii.user teaching mode. ",
     "thumbnail" : "img/bing.png",
     "downloads" : [
@@ -65,7 +65,7 @@
       "desc"  : "Download"
     },
 	{ "href"  : "https://www.youtube.com/watch?v=PPWlmNjWZjA",
-        "desc"  : "Video (Youtube)"
+        "desc"  : "Video (YouTube)"
       },
 	  { "href"  : "http://pire.fiu.edu/publications/memreflex.pdf
 ",
@@ -86,11 +86,11 @@
 					 "desc" : "Yuan Chang"},
 				  ],
     "published" : "Course Project of Computer Graphics,",
-    "caption"   : "The simple game is created by Unity 3D, with basic scene elements and character actions. We built game scene and implemented the movements and fight of characters. We also implemented the mini map and different difficulty levels.",
+    "caption"   : "The game is created by Unity 3D and 3D MAX, with basic scene elements and character actions. We built the game scene and implemented the movements and fight of characters. We also implemented the mini map and different difficulty levels.",
     "thumbnail" : "img/game.png",
     "downloads" : [
 	{ "href"  : "https://youtu.be/rALszOvEvK0",
-        "desc"  : "Video (Youtube)"
+        "desc"  : "Video (YouTube)"
       } 
 	]
     }
