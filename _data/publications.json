@@ -34,7 +34,7 @@
     "caption"   : "Recently, various planar quadrilateral mesh generation methods are either not fully automatic and robust enough, or will produce too many singularities for complex and irregular planar domains. To solve this problem, our idea is simplifying the boundary of input triangle mesh first, i.e. deforming it to a generalized PolyQuad, and computing an inversion-free mapping between them at the same time, then using existed algorithms to generate a quadrilateral mesh of good quality, finally mapping the mesh back to the initial domain. In addition, an advanced mesh optimization algorithm is employed to improve mesh quality after the topology is determined. A medial axis based geometry decomposition method is used to prove our algorithm, which generates singularity controllable planar quadrilateral meshes efficiently and robustly.",
     "thumbnail" : "img/polyquad.png",
     "downloads" : [
-    { "href"  : "pdfs/graduation_project.pdf",
+    { "href"  : "pdfs/GraduationThesis.pdf",
       "desc"  : "PDF (Chinese version)"
     },
 	{ "href"  : "https://www.youtube.com/watch?v=3-uLpQ70QY4",
