@@ -15,7 +15,7 @@ flickr_api_key: adb4be93419edab991522b4fa92b7029
 description: > # this means to ignore newlines until "baseurl:"
      Graduate in Computational Mathematics and Computer Science and Technology, University of Science and Technology of China (USTC)
 subheading: > # this means to ignore newlines until "baseurl:"
-    Graduate in Computational Mathematics and Computer Science and Technology (Dual) ,  <a href="http://ustc.edu.cn" target="_blank">University of Science and Technology of China</a> (USTC) <br><br>Interested in Computer Graphics, Computer Vision and Machine Learning
+    Graduate in Computational Mathematics and Computer Science and Technology (Dual) ,  <a href="http://ustc.edu.cn" target="_blank">University of Science and Technology of China</a> (USTC) <br><br>Interested in Computer Graphics and Computer Vision 
 
 # Handling Reading
 safe: true
