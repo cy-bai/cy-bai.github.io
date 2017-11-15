@@ -27,7 +27,7 @@
         	
             {% endif %}
             {% if p.authors.size > 2 and author != p.authors.last %},{% endif %}
-           {% endfor %}<br><span class="text-danger">{{ p.published }} {{ p.date | date: '%Y' }}</span></p>
+           {% endfor %}<br><span >{{ p.published }} {{ p.date | date: '%Y' }}</span></p>
         
         <p>{{ p.caption }}</p>
         <p>
@@ -52,7 +52,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </di
         {% endif %}
       </div>
     </div>

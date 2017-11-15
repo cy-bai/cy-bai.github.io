@@ -3,13 +3,14 @@
 .biomain
 {
 	width:100%;
-	margin-top:-15px;
+	margin-top:-40px;
+	margin-bottom: -60px;
 }
 .mypho
 {
 	  float:left;
-        width:30%;
-        height:80%;
+        width:35%;
+        height:100%;
 		
 }
 .bio
@@ -21,4 +22,49 @@
 }
 .Clear{
     clear:both;
+}
+h2,h3,h4,h5{
+	font-weight: 400;
+	letter-spacing: -1px;
+	color: #609f80;
+}
+/*h1.Big{
+
+}*/
+h1{
+	font-size: 400%;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+a{
+	color: #609f80;
+}
+a:hover {
+    color: #609f80;
+}
+span{
+	font-weight: 580;
+}
+.list-email {
+  background-image: url("../img/email.png");
+  background-size: auto 100%;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 40px; /* Adjust according to image size to push text across. */
+  font-size: 150%
+}
+.list-address {
+  background-image: url("../img/address.png");
+  background-size: auto 100%;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 40px; /* Adjust according to image size to push text across. */
+  font-size: 150%
+}
+.collapse navbar-collapse navbar-ex1-collapse{
+  background-color: #609f80;
+}
+.nav navbar-nav navbar-right{
+  background-color: #609f80;  
 }

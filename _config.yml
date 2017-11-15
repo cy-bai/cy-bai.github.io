@@ -3,19 +3,26 @@ timezone: Europe/Berlin
 
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://cy-bai.github.io" # the base hostname & protocol for your site
-
+# url: "http://cy-bai.github.io" # the base hostsname & protocol for your site
+url: "http://www.cs.dartmouth.edu/~cy"
 title: Home #Interactive Graphics Engineer
-author: Chongyang Bai(拜重阳)
+author: Chongyang Bai
+brief: Ph.D. at Dartmouth College
+interest: Machine learning and Cybersecurity 
 portrait: "img/cybai.jpg"
 
 flickr_user: "131006004@N06"
 flickr_api_key: adb4be93419edab991522b4fa92b7029
 
-description: > # this means to ignore newlines until "baseurl:"
-     Graduate in Computational Mathematics and Computer Science and Technology, University of Science and Technology of China (USTC)
+# description: > # this means to ignore newlines until "baseurl:"
+#      Graduate in Computational Mathematics and Computer Science and Technology, University of Science and Technology of China (USTC)
 subheading: > # this means to ignore newlines until "baseurl:"
-    Graduate in Computational Mathematics and Computer Science and Technology (Dual) ,  <a href="http://ustc.edu.cn" target="_blank">University of Science and Technology of China</a> (USTC) <br><br>Interested in Computer Graphics and Computer Vision 
+    I am a first-year Ph.D, under supervision of Prof. <a href="https://www.cs.umd.edu/~vs/" target="_blank">V.S. Subrahmanian</a>. From 2016 to 2017, I worked in 
+    <a href="https://www.oppenfuturetech.com" target="_blank">Oppen Future</a> as a Graphics Algorithm Engineer. From 2015-2016, I studied Geometry Modeling 
+    in <a href="http://www.msra.cn" target="_blank">Microsoft Research Asia</a> for a year, under supervision of <a href="https://xueyuhanlang.github.io" target="_blank">Dr. Yang Liu</a>.
+    I received my B.S.(2016) in Computational Mathematics and B.E.(2014-2016) in Computer Science
+    from <a href="http://ustc.edu.cn" target="_blank">Univ of Sci & Tec of China</a>. 
+
 
 # Handling Reading
 safe: true

@@ -73,26 +73,6 @@
       },
      	  
 	]
-    },
-	{ "key"       : "ga2014",
-    "featured"  : "false",
-    "title"     :  "3D Action Game: Dhammapala",
-    "date"      : "2014-12-01",
-    "authors"   : [ 
-	                {"isme" : "false","desc" : "Wenjie Qin"},
-					{"isme" : "true",
-					 "desc" : "Chongyang Bai"},
-					{"isme": "false",
-					 "desc" : "Yuan Chang"},
-				  ],
-    "published" : "Course Project of Computer Graphics,",
-    "caption"   : "The game is created by Unity 3D and 3D MAX, with basic scene elements and character actions. We built the game scene and implemented the movements and fight of characters. We also implemented the mini map and different difficulty levels.",
-    "thumbnail" : "img/game.png",
-    "downloads" : [
-	{ "href"  : "https://youtu.be/rALszOvEvK0",
-        "desc"  : "Video (YouTube)"
-      } 
-	]
     }
   	
   ]

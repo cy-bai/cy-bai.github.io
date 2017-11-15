@@ -1,8 +1,8 @@
 header {
   padding: 12em 0 4em; }
 
-header h1 {
-  font-size: 3em; }
+/*header h1 {
+  font-size: 4em; }*/
 
 .portrait {
   padding: 2em 0; }
@@ -63,7 +63,9 @@ a.thumbnail {
 
 .portfolio-item .title:before {border-radius:0; display:none}
 .portfolio-item p {margin:0px 0 30px;}
-.portfolio-item h3 {margin:-10px 0 10px; font-size:1em; }
+.portfolio-item h3 {margin:-10px 0 10px; font-size:1em; 
+	/*text-transform:uppercase;*/
+}
 
 .tpl6 h3
 {
@@ -71,7 +73,7 @@ a.thumbnail {
 	margin:0px 25px 15px 25px;
 	padding: 0;
 	font-size:15px;
-	
+	text-transform:uppercase;
 }
 .tpl6 .dmbutton
 {
@@ -84,7 +86,8 @@ a.thumbnail {
 {
 	height:100%;
 	width:100%;
-	background-color:rgba(0,179,254,0.9);
+	/*background-color:rgba(0,179,254,0.9);*/
+	background-color: #609f80;
 	text-align:center;
 	display: table;
 }
@@ -98,8 +101,8 @@ a.thumbnail {
 }
 .dmbutton {
 	background:rgba(0, 0, 0, 0);
-	border: 1px solid #ffffff;
-	color: #ffffff;
+	border: 1px solid #609f80;
+	color: #609f80;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	padding-top: 0.525rem;
