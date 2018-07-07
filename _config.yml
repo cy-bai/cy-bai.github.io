@@ -3,8 +3,7 @@ timezone: Europe/Berlin
 
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://cy-bai.github.io" # the base hostsname & protocol for your site
-# url: "http://www.cs.dartmouth.edu/~cy"
+# url: "http://cy-bai.github.io" # the base hostsname & protocol for your site
 title: Home #Interactive Graphics Engineer
 author: Chongyang Bai
 brief: Ph.D. at Dartmouth College
